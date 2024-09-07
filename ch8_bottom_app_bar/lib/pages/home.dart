@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomAppBar'),
+        title: Text(widget.title),
       ),
       body: SafeArea(
         child: Container(),
